@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IdealPrix Web Basic</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="icon"  href="budget.png">
+
+       
+
+   
+</head>
+<body>
+    <p><img src="budget.png" alt="" height="70px" width="70px" ></p>
+    <h1>IdealPrix Basic v0.1</h1>
+    <label >Prix Fourniseur</label>
+    <input type="number" id="fprix"><br>
+    <label >Prix Shipping&nbsp;&nbsp;&nbsp;</label>
+    <input type="number" id="shiprix"><br>
+    <label>Prix Ads&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+    <input type="number" id="adsprix">
+    <label >Total</label>
+    <input type="number" id="total">
+    <p>
+        <button onclick="calc();">Calculer</button>
+
+    </p>
+    
+   
+    <h4>Profit %</h4>
+    <select id="profit">
+        <option value="10">10%</option>
+        <option value="20">20%</option>
+        <option value="30">30%</option>
+        <option value="40">40%</option>
+        <option value="50">50%</option>
+        <option value="60">60%</option>
+        <option value="70">70%</option>
+        <option value="80">80%</option>
+        <option value="90">90%</option>
+        <option value="100">100%</option>
+    </select>
+    <br><br><br>
+    <label >Net Profit </label>
+    <input type="number" id="netprofit">
+    <label >Prix Final</label>
+    <input type="number" id="prixfinal"><br>
+    <p>
+        <button onclick="calcf();">Calculer</button>
+        <button onclick="rnew();">Reset</button>
+    </p>
+
+    
+</body>
+</html>
